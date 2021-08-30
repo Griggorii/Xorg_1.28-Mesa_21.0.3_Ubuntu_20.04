@@ -15,7 +15,10 @@ Test run video driver chromium/chrome/opera/brave/and analog engine browser repl
                         |                                                |
                         | Test fbdev new video driver architect Griggorii|
                         |_______________________________________________ |
-			
+
+
+The text of the settings on the Internet page FBDEV is not correctly displayed. Downloads readme.md to see the correct settings.
+
 
 $ sudo mkdir /etc/X11/xorg.conf.d
 
