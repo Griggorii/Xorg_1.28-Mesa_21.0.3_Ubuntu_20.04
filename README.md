@@ -19,7 +19,7 @@ Test run video driver chromium/chrome/opera/brave/and analog engine browser repl
 
 The text of the settings on the Internet page FBDEV is not correctly displayed. Downloads readme.md to see the correct settings and correct setting copy alternative raw page https://raw.githubusercontent.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/main/README.md 
 
-Monitor support 60-75 replace string  (VertRefresh 60-75) example support  monitor 110-120 ? , danger experiment monitor not support blackscreen (VertRefresh 110-120)
+Monitor support 60-75 hz replace string  (VertRefresh 60-75) example support  monitor 110-120 hz ? , danger experiment monitor not support blackscreen (VertRefresh 110-120)
 
 $ sudo mkdir /etc/X11/xorg.conf.d
 
