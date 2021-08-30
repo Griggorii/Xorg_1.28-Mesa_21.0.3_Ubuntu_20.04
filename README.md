@@ -8,6 +8,9 @@ Download mesa+xorg new videodriver: https://github.com/Griggorii/Xorg_1.28-Mesa_
 Deb kernel recomendation support all nvidia , touchpad , zfs , bbswitch: https://github.com/Griggorii/linux-image-unsigned-5.6.0-1020-oem-kernel-mod-rpm-deb/releases/tag/linux-image-unsigned-5.6.0-1020-fedora
 
 Test run video driver chromium/chrome/opera/brave/and analog engine browser replace (chromium-browser) flag: https://github.com/Griggorii/Chromium_OS_77
+
+
+
                          ________________________________________________
                         |                                                |
                         | Test fbdev new video driver architect Griggorii|
