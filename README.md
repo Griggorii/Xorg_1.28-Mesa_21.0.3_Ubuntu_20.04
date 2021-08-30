@@ -1,5 +1,5 @@
 # Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04
-Mesa+Xorg full my build , ubuntu 20.04 , libc-2.31 , new libmesa_dri , mesa proc self build
+Mesa+Xorg full my build , ubuntu 20.04 , libc-2.31 , new libmesa_dri , mesa proc self build , libmesa_dri build flag cpp_std=c++2a module
 
                       Ubuntu 20.04 special edition video driver architect Griggorii
 
