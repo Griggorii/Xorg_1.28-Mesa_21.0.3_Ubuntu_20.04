@@ -17,7 +17,7 @@ Test run video driver chromium/chrome/opera/brave/and analog engine browser repl
                         |_______________________________________________ |
 
 
-The text of the settings on the Internet page FBDEV is not correctly displayed. Downloads readme.md to see the correct settings.
+The text of the settings on the Internet page FBDEV is not correctly displayed. Downloads readme.md to see the correct settings and correct setting copy alternative raw page https://raw.githubusercontent.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/main/README.md
 
 
 $ sudo mkdir /etc/X11/xorg.conf.d
