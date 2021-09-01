@@ -75,7 +75,9 @@ EndSection
 
 _______________________________________________________________________________________________________________________________________________________________
 
-                                           Vulkan my build mesa
+                                        Vulkan my build mesa chrome://gpu browser information dump
+					   
+					   
 Vulkan Information
 info	{
   "apiVersion": 4202627,
