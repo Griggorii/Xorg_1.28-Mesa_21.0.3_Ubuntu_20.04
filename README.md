@@ -80,7 +80,6 @@ ________________________________________________________________________________
 					Video Acceleration Information
 					   
 					   
-Vulkan Information
 info	{
   "apiVersion": 4202627,
   "usedApiVersion": 4198400,
@@ -555,4 +554,3 @@ info	{
       ]
     }
   ]
-}
