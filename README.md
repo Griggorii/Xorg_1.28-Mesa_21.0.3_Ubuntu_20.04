@@ -75,7 +75,9 @@ EndSection
 
 _______________________________________________________________________________________________________________________________________________________________
 
-                                        Vulkan my build mesa chrome://gpu browser information dump
+                      Vulkan my build mesa chrome://gpu browser information dump scheme parametr auto compile json my browser
+					
+					Video Acceleration Information
 					   
 					   
 Vulkan Information
