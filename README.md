@@ -10,6 +10,9 @@ Deb kernel recomendation support all nvidia , touchpad , zfs , bbswitch: https:/
 Test run video driver chromium/chrome/opera/brave/and analog engine browser replace (chromium-browser) flag: https://github.com/Griggorii/Chromium_OS_77
 
 
+Informations all developers /usr/include/X11/Xlib.h a lot of duplicate functions and repeated slightly altered lines that roughly provide the same duplicate functions and the library needs to be redirected
+
+
 
                          ________________________________________________
                         |                                                |
