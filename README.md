@@ -5,6 +5,8 @@ Mesa+Xorg full my build , ubuntu 20.04 , libc-2.31 , (dri new libgallium_drv_vid
 
 Download mesa+xorg new videodriver: https://github.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/releases/tag/libmesa_dri
 
+Development xorg: sudo cp libwayland-server.la /usr/lib/x86_64-linux-gnu
+
 Deb kernel recomendation support all nvidia , touchpad , zfs , bbswitch: https://github.com/Griggorii/linux-image-unsigned-5.6.0-1020-oem-kernel-mod-rpm-deb/releases/tag/linux-image-unsigned-5.6.0-1020-fedora
 
 Test run video driver chromium/chrome/opera/brave/and analog engine browser replace (chromium-browser) flag: https://github.com/Griggorii/Chromium_OS_77
