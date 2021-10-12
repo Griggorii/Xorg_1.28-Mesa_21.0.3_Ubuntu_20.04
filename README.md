@@ -82,6 +82,8 @@ $ sudo cp xorg.conf /etc/X11/xorg.conf.d/
 _______________________________________________________________________________________________________________________________________________________________
 
                                     Test xorg.conf log /etc/X11/xorg.conf.d
+				    
+Correct text click raw page proview https://raw.githubusercontent.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/main/README.md				    
 							   
 [  3394.609] (--) Log file renamed from "/home/griggorii/.local/share/xorg/Xorg.pid-21294.log" to "/home/griggorii/.local/share/xorg/Xorg.0.log"
 [  3394.610] 
