@@ -81,7 +81,7 @@ $ sudo cp xorg.conf /etc/X11/xorg.conf.d/
 
 _______________________________________________________________________________________________________________________________________________________________
 
-                   Test xorg.conf log /etc/X11/xorg.conf.d
+                                    Test xorg.conf log /etc/X11/xorg.conf.d
 							   
 [  3394.609] (--) Log file renamed from "/home/griggorii/.local/share/xorg/Xorg.pid-21294.log" to "/home/griggorii/.local/share/xorg/Xorg.0.log"
 [  3394.610] 
