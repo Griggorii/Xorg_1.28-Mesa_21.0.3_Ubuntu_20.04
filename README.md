@@ -3,7 +3,7 @@ Mesa+Xorg full my build , ubuntu 20.04 , libc-2.31 , (dri new libgallium_drv_vid
 
              Ubuntu 20.04 special edition video driver architect Griggorii update old xorg generate 1.20.4 fix fast ui chrome/um resize page F11 11.03.2021
 
-Download mesa+xorg new videodriver: https://github.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/releases/tag/libmesa_dri
+Download mesa+xorg new videodriver: https://github.com/Griggorii/Xorg_1.28-Mesa_21.0.3_Ubuntu_20.04/releases/tag/libmesa_dri
 
 Development xorg: sudo cp libwayland-server.la /usr/lib/x86_64-linux-gnu
 
