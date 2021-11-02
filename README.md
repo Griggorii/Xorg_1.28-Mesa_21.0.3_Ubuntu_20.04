@@ -1,7 +1,7 @@
-# Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04
+# Xorg_1.28-Mesa_21.0.3_Ubuntu_20.04
 Mesa+Xorg full my build , ubuntu 20.04 , libc-2.31 , (dri new libgallium_drv_video , libmesa_dri_drivers) (vdpau libvdpau_gallium), wayland speed fast +50% , mesa proc self build , libmesa_dri build flag cpp_std=c++2a module , BT709 , IEC61966_2_1 , RGB , FULL
 
-             Ubuntu 20.04 special edition video driver architect Griggorii update old xorg generate 1.20.4 fix fast ui chrome/um resize page F11 03.08.2021
+             Ubuntu 20.04 special edition video driver architect Griggorii update old xorg generate 1.20.4 fix fast ui chrome/um resize page F11 11.03.2021
 
 Download mesa+xorg new videodriver: https://github.com/Griggorii/Xorg_1.28-Mesa_23.0.1_libmesa_dri_Ubuntu_20.04/releases/tag/libmesa_dri
 
