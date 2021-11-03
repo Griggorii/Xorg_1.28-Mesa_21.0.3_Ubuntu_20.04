@@ -2,20 +2,56 @@ MIT License
 
 Copyright (c) 2021 Griggorii
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+    amd64 build mesa-21.0.3 version V6 ultra accelerate by griggorii 
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Only real technologies, not any fictional parasitic distributions support real technology investments and donate VISA 4817 7601 8112 4706
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+
+This license for each binary file x86_64-linux-gnu with its hash amount implies the following that you will use it for yourself for free, but if you decide to commercialize these binary files by selling TV set-top boxes based on it, phones, payment terminals, bank terminals and other equipment, including When selling software, you must invest at least one percent of the cost of any device using my build binaries.
+Test benchmark sudo update-initramfs -u -v time build new initramfs minimum time !
+
+Данная лицензия на каждый бинарный фаил именно архитектуры x86_64-linux-gnu с его хеш суммой подразумевает следующее что вы его будете использовать для себя лично бесплатно , но если вы решили коммерциализировать данные бинарные фаилы продавая на основе него тв приставки , телефоны , терминалы оплаты , банковские терминалы и другое оборудование в том числе продавая программное обеспечение то вы должны инвестировать от одного процента от стоимости любого устройства или програмного софтварного комплекса использующего бинарные фаилы моего билда. Запрещается так же выкладывать на всех сайтах как в виде модулей , перепаковка в deb , rpm и другие форматы так и целиком кроме опубликования ссылки именно на прямого автора https://github.com/Griggorii в связи с игнорированием интернет индустрией моих работ я не получаю ни каких донатных поощрений для дальнейшей разработки или же каких то подобных премиях , я думаю кроме меня пять лет никто бесплатно не работал и работать не будет по причинам "материального мира" данное описание посвящено вендорам и коллегам и крупным технологическим компаниям it гигантам по технологиям в том числе крупным мобильным вендорам , в случае не соблюдения требовании или же переименовании данных библиотек моя сторона будет подавать иск о возмещении "утерянных выгод" и заключения штрафного контракта в случае выдачи этих фаилов другими лицами именно по md5 сумме проданных третьими лицами как свои вендорам , по скольку я не могу еще пять лет работать бесплатно по причине материального мира в котором нету понятия "бесплатная покупка чего либо" в течении пяти лет я пока не получил что либо от каких либо вендоров или ит каких либо ответвлении технологических компаний и буду ждать письмо на griggorii@gmail.com.
+
+MD5
+
+/usr/lib/x86_64-linux-gnu/dri
+
+6b2c59cc4a132841160807c6dfe1ba21 virtio_gpu_dri.so' 
+e43814abb5dd9578891b87bbe685d9af i915_dri.so
+c2ed3784491a24a36546b8eaa99a386f nouveau_drv_video.so
+
+/usr/lib/x86_64-linux-gnu/vdpau 
+a4ec2013359df2807627ec328e2ff608 vdpau/libvdpau_r300.so.1.0.0
+
+/usr/lib/x86_64-linux-gnu/gallium-pipe
+
+fe59e0cf57019b8bb836e33fc9ce15dc pipe_iris.so
+587b1d4edf7783e7793f6c61b2fa750a pipe_kmsro.so
+1ff77a426c33f28fa362fb18fbf69065 pipe_msm.so
+7063407c0a608fe6ad3ada78d5e488c4 pipe_nouveau.so
+b5f749c1cbcf5636698421d0f79ed92a pipe_r300.so
+b2561c0cc3dc607c37c9be596f015286 pipe_r600.so
+ecbfc76b4722b8827ab3748d0402606c pipe_radeonsi.so
+acd18c5018c051b340340c5db2c2c670 pipe_swrast.so
+f409d4a5be77bad99345b06fb9593898 pipe_vmwgfx.so
+
+/usr/lib/x86_64-linux-gnu/d3d
+
+d42c23d48b6f3d4dc089ae5216af5c9a d3dadapter9.so.1.0.0
+
+/usr/lib/x86_64-linux-gnu
+
+dde3b0bfc5dea81e86de7ea1fcdb684b libMesaOpenCL.so.1.0.0
+61e2e49a5377df9647f520fb84b81033 libxatracker.so.2.5.0
+7dbd19b898f4eb5bac11ae32a2377886 libGLX_mesa.so.0.0.0
+0c6df223ba76a5447e9236d8d8278183 libglapi.so.0.0.0
+8289fade7f618fe318175a12c1d4fb7e libgbm.so.1.0.0
+f14a46d31ec59ea5a17b7224de83d0ec libEGL_mesa.so.0.0.0
+32eddc5fa3d765975193b39748d29e4f libOSMesa.so.8.0.0
+9a5195559c4681f87cb9e5f1590ef02e libVkLayer_MESA_device_select.so
+80cd7799e65beb5b3c9915000b32e06a libVkLayer_MESA_overlay.so
+233e78c9fcac1e5e7794d008edd6ce4a libvulkan_broadcom.so
+46d977561e104763632aa47142f7e61c libvulkan_freedreno.so
+9be9a2715514a229ff4e24c5a6a26a65 libvulkan_intel.so
+61dec3a5ba8a5cfd49e8ef6daaad57ce libvulkan_lvp.so
+4883dad7fe0f4d9955f1c48b34bf7bbb libvulkan_radeon.so
