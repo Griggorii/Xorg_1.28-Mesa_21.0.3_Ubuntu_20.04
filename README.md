@@ -11,7 +11,7 @@ Development drm: sudo cp amdgpu.ids /usr/share/libdrm
 
 Wayland ubuntu 20.04 session mesa libLLVM-10
 
-$ sudo apt install libllvm10
+$ sudo apt reinstall libllvm10 -y
 
 Deb kernel recomendation support all nvidia , touchpad , zfs , bbswitch: https://github.com/Griggorii/linux-image-unsigned-5.6.0-1020-oem-kernel-mod-rpm-deb/releases/tag/linux-image-unsigned-5.6.0-1020-fedora
 
