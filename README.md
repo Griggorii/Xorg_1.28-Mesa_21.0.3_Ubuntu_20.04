@@ -9,6 +9,10 @@ Development xorg: sudo cp libwayland-server.la /usr/lib/x86_64-linux-gnu
 
 Development drm: sudo cp amdgpu.ids /usr/share/libdrm
 
+Wayland ubuntu 20.04 session mesa libLLVM-10
+
+$ sudo apt install libllvm10
+
 Deb kernel recomendation support all nvidia , touchpad , zfs , bbswitch: https://github.com/Griggorii/linux-image-unsigned-5.6.0-1020-oem-kernel-mod-rpm-deb/releases/tag/linux-image-unsigned-5.6.0-1020-fedora
 
 Test run video driver chromium/chrome/opera/brave/and analog engine browser replace (chromium-browser) flag: https://github.com/Griggorii/Chromium_OS_77
