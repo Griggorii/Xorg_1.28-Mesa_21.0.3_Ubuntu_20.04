@@ -17,6 +17,98 @@ Deb kernel recomendation support all nvidia , touchpad , zfs , bbswitch: https:/
 
 Test run video driver chromium/chrome/opera/brave/and analog engine browser replace (chromium-browser) flag: https://github.com/Griggorii/Chromium_OS_77
 
+____________________________________________________________________________________________________
+
+                                     Test run wayland session mesa 20.1.0
+
+RUS: Отказ от ответственности все данные запуски тестирования могут вести себя по разному и могут привести к черному экрану тогда понадобиться лайв диск что бы зайти в вашу home дирикторию юзера и включить показ скрытох фаилов и удалить полностью внесенную строчку по типу указанную в командах и начинающиюся после echo "export  (  = bla bla bla  )  из фаила с именем .profile сделайте бекап что бы понять какие изменения были внесены в случае торможения системы или черного экрана с первой данной команды вы получите достоверный фаил backup_profile и будет изменяться только фаил .profile который надо будет в случае не удачи исправить обычным копированием и видеть который можно включив если есть даже быстрой командой CTRL+H
+
+Данные способы не обязательно могут сработать из за множества разных операционных систем не приведенных к единому и желательно одному стандарту glx wayland gbm и возможно более рабочие но опасный способ может есть в каком нибудь перенаправлении на более системный конфиг вида  >> /etc/profile и не менее интересный новый ~/.pam_environment включая директории d 
+
+cp ~/.profile ~/backup_profile
+
+ENG: Disclaimer All Test start data may behave in different ways and can lead to a black screen then need a live drive to enter your Home Diriktoria of the user and turn on the display of Failov hidden and delete the fully made line by type specified in the commands and starting after ECHO EXPORT (= BLA BLA BLA) from Faale named .profile Make backup to understand which changes were made in the event of a system braking or black screen from the first command you will receive a reliable file backup_profile and will change only the file .profile to be changed in case Do not good luck to correct usual copying and see which you can turn on if there is even a fast Ctrl + H command
+
+These methods do not have to work because of the multiple of different operating systems not specified to one and preferably one GLX WAYLAND GBM standard and possibly more workers, but a dangerous method may have in any redirect to a more system config of the form >> /etc/profile and at least Interesting new ~/.pam_environment  including directory D
+
+cp ~/.profile ~/backup_profile
+_________________________________________________________________________________________________________
+
+echo "export SDL_VIDEODRIVER=glx" >> ~/.profile
+
+echo "export SDL_VIDEODRIVER=wayland" >> ~/.profile
+
+echo "export SDL_VIDEODRIVER=x11" >> ~/.profile
+
+echo "export SDL_VIDEODRIVER=dummy" >> ~/.profile
+
+echo "export SDL_VIDEODRIVER=qxl" >> ~/.profile
+
+echo "export SDL_VIDEODRIVER=wayland-egl" >> ~/.profile
+
+echo "export SDL_VIDEODRIVER=kms" >> ~/.profile
+
+echo "export GDK_BACKEND=x11" >> ~/.profile
+
+echo "export GDK_BACKEND=wayland" >> ~/.profile
+
+echo "export GDK_BACKEND=glx" >> ~/.profile && not recommended
+
+echo "export GDK_BACKEND=qxl" >> ~/.profile && not recommended
+
+echo "export GDK_BACKEND=dummy" >> ~/.profile && not recommended
+
+echo "export GDK_BACKEND=kms" >> ~/.profile && not recommended
+
+Elementary engine ECORE EVAS not elementary os ? danger not recommended ECORE_EVAS_ENGINE
+
+echo "export ECORE_EVAS_ENGINE=wayland-egl" >> ~/.profile
+
+______________________________________________________________________________________________
+
+                                             Test run wayland session mesa 20.1.0 run green-recorder
+
+SDL_VIDEODRIVER=glx green-recorder <- run support
+
+SDL_VIDEODRIVER=qxl green-recorder <- run support
+
+GDK_BACKEND=wayland green-recorder <- run support
+
+GDK_BACKEND=dummy green-recorder <- not run support
+
+GDK_BACKEND=glx green-recorder <- not run support
+
+GDK_BACKEND=qxl green-recorder <- not run support
+
+GDK_BACKEND=wayland-egl green-recorder <- not run support
+
+GDK_BACKEND=kms green-recorder <- not run support
+____________________________________________________________________________________________________
+
+Elementary engine ECORE EVAS not elementary os ? danger not recommended ECORE_EVAS_ENGINE
+
+echo "ECORE_EVAS_ENGINE=wayland-egl" >> ~/.profile
+
+ECORE_EVAS_ENGINE=wayland-egl green-recorder <- not run support
+
+
+лучший по моему мнению флаг было получено при самом первом запуске позднее становилось меньше и видимо надо как то включать ускорение которое срабатывает почему то во время запуска и потом затухает
+
+the best flag in my opinion was received at the very first start, later it became smaller and apparently it is necessary to somehow turn on the acceleration, which works for some reason during startup and then fades
+
+1 ) SDL_VIDEODRIVER=glx glxgears | 11281 frames in 5.0 seconds = 2256.105 FPS
+
+2 ) SDL_VIDEODRIVER=wayland-egl glxgears | 9909 frames in 5.0 seconds = 1981.597 FPS
+
+3 ) SDL_VIDEODRIVER=qxl glxgears | 9486 frames in 5.0 seconds = 1896.988 FPS
+
+4 ) ECORE_EVAS_ENGINE=wayland-egl glxgears | 9759 frames in 5.0 seconds = 1951.755 FPS
+
+4 ) GDK_BACKEND=kms glxgears | 8526 frames in 5.0 seconds = 1704.321 FPS
+
+5 ) SDL_VIDEODRIVER=kms glxgears | 7411 frames in 5.0 seconds = 1481.780 FPS
+
+
 
 Informations all developers /usr/include/X11/Xlib.h a lot of duplicate functions and repeated slightly altered lines that roughly provide the same duplicate functions and the library needs to be redirected
 
