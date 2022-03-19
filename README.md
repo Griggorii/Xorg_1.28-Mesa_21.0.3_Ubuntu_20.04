@@ -1,9 +1,9 @@
-# Xorg_1.28-Mesa_21.0.3_Ubuntu_20.04
+# Xorg_1.28-Mesa_21.2.6_Ubuntu_20.04
 Mesa+Xorg full my build , ubuntu 20.04 , libc-2.31 , mesa-20.1.0 , (dri new libgallium_drv_video , libmesa_dri_drivers add alternative link ) (vdpau libvdpau_gallium add alternative link ) , ( gallium add alternative link ) wayland speed fast +50% , mesa perfomance
 
              Ubuntu 20.04 special edition video driver architect Griggorii update old xorg generate 1.20.4 fix fast ui chrome/um resize page F11 11.08.2021
 
-Download deb package ubuntu 20.04 LTS mesa+xorg new video driver: https://github.com/Griggorii/Xorg_1.28-Mesa_21.0.3_Ubuntu_20.04/releases/tag/libmesa_dri
+Download deb package ubuntu 20.04 LTS mesa+xorg new video driver: https://github.com/Griggorii/Xorg_1.28-Mesa_21.2.6_Ubuntu_20.04/releases/tag/libmesa_dri
 
 Development xorg: sudo cp libwayland-server.la /usr/lib/x86_64-linux-gnu
 
