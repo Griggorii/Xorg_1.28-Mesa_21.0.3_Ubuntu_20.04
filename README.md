@@ -182,7 +182,8 @@ ________________________________________________________________________________
 		  Mesa https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D0%B9_%D0%BF%D1%83%D0%BB
 		  
 		  
-		  offs=25 (0x0019): Chromacity Coords
+offs=25 (0x0019): Chromacity Coords
+
   red_x           0.623 
   red_y           0.369 
   green_x         0.346 
