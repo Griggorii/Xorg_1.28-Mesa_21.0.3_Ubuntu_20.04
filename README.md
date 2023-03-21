@@ -11,15 +11,15 @@ NO MANGO HUD
 
 $ MESA_LOADER_DRIVER_OVERRIDE=i965 mesa_glthread=false vblank_mode=1 glxgears -info
 
-$ $ $ $ $ MESA_LOADER_DRIVER_OVERRIDE=zink mesa_glthread=false vblank_mode=1 glxgears -info
+$ MESA_LOADER_DRIVER_OVERRIDE=zink mesa_glthread=false vblank_mode=1 glxgears -info
 
-$ $ $ $ MESA_LOADER_DRIVER_OVERRIDE=kms_swrast  mesa_glthread=false vblank_mode=1 glxgears -info
+$ MESA_LOADER_DRIVER_OVERRIDE=kms_swrast  mesa_glthread=false vblank_mode=1 glxgears -info
 
 YES MANGO HUD
 
-$ $ $ MESA_LOADER_DRIVER_OVERRIDE=i965 mesa_glthread=false vblank_mode=1 mangohud glxgears -info
+$ MESA_LOADER_DRIVER_OVERRIDE=i965 mesa_glthread=false vblank_mode=1 mangohud glxgears -info
 
-$ $ MESA_LOADER_DRIVER_OVERRIDE=zink mesa_glthread=false vblank_mode=1 mangohud glxgears -info
+$ MESA_LOADER_DRIVER_OVERRIDE=zink mesa_glthread=false vblank_mode=1 mangohud glxgears -info
 
 $ MESA_LOADER_DRIVER_OVERRIDE=kms_swrast  mesa_glthread=false vblank_mode=1 mangohud glxgears -info
 
