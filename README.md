@@ -3,23 +3,35 @@ Mesa+Xorg full my build , ubuntu 20.04 , libc-2.31 , mesa-20.1.0 , (dri new libg
 
              Ubuntu 20.04 special edition video driver architect Griggorii update old xorg generate 1.20.4 fix fast ui chrome/um resize page F11 11.08.2021
 
-Download deb package ubuntu 20.04 LTS mesa+xorg new video driver: https://github.com/Griggorii/Xorg_1.28-Mesa_21.2.6_Ubuntu_20.04/releases/tag/libmesa_dri
+Download mesa+xorg new video drive ubuntu 20.04 LTS: https://github.com/Griggorii/Xorg_1.28-Mesa_21.2.6_Ubuntu_20.04/releases/tag/libmesa_dri
 
-Development xorg: sudo cp libwayland-server.la /usr/lib/x86_64-linux-gnu
+                                                    TEST NO MANGO HUD | YES MANGO HUD
 
-Development drm: sudo cp amdgpu.ids /usr/share/libdrm
+NO MANGO HUD
 
-Wayland ubuntu 20.04 session mesa libLLVM-10
+$ MESA_LOADER_DRIVER_OVERRIDE=i965 mesa_glthread=false vblank_mode=1 glxgears -info
 
-$ sudo apt reinstall libllvm10 -y
+$ $ $ $ $ MESA_LOADER_DRIVER_OVERRIDE=zink mesa_glthread=false vblank_mode=1 glxgears -info
 
-Deb kernel recomendation support all nvidia , touchpad , zfs , bbswitch: https://github.com/Griggorii/linux-image-unsigned-5.6.0-1020-oem-kernel-mod-rpm-deb/releases/tag/linux-image-unsigned-5.6.0-1020-fedora
+$ $ $ $ MESA_LOADER_DRIVER_OVERRIDE=kms_swrast  mesa_glthread=false vblank_mode=1 glxgears -info
+
+YES MANGO HUD
+
+$ $ $ MESA_LOADER_DRIVER_OVERRIDE=i965 mesa_glthread=false vblank_mode=1 mangohud glxgears -info
+
+$ $ MESA_LOADER_DRIVER_OVERRIDE=zink mesa_glthread=false vblank_mode=1 mangohud glxgears -info
+
+$ MESA_LOADER_DRIVER_OVERRIDE=kms_swrast  mesa_glthread=false vblank_mode=1 mangohud glxgears -info
+
+
+
+Deb kernel recomendation support all nvidia , touchpad , zfs , bbswitch: https://github.com/Griggorii/linux-image-unsigned-5.6.0-1020-oem-kernel-mod-rpm-deb/releases/tag/linux-image-unsigned-5.6.0-1020-anbox
 
 Test run video driver chromium/chrome/opera/brave/and analog engine browser replace (chromium-browser) flag: https://github.com/Griggorii/Chromium_OS_77
 
 ____________________________________________________________________________________________________
 
-                                     Test run wayland session mesa 20.1.0
+                                     Test run wayland session mesa 23.0.1
 
 RUS: Отказ от ответственности все данные запуски тестирования могут вести себя по разному и могут привести к черному экрану тогда понадобиться лайв диск что бы зайти в вашу home дирикторию юзера и включить показ скрытох фаилов и удалить полностью внесенную строчку по типу указанную в командах и начинающиюся после echo "export  (  = bla bla bla  )  из фаила с именем .profile сделайте бекап что бы понять какие изменения были внесены в случае торможения системы или черного экрана с первой данной команды вы получите достоверный фаил backup_profile и будет изменяться только фаил .profile который надо будет в случае не удачи исправить обычным копированием и видеть который можно включив если есть даже быстрой командой CTRL+H
 
