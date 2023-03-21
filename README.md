@@ -7,7 +7,7 @@ Download mesa+xorg new video drive ubuntu 20.04 LTS: https://github.com/Griggori
 
                                                     TEST NO MANGO HUD | YES MANGO HUD
 
-NO MANGO HUD
+NO MANGO HUD | mangohud индикатор может тормозить opengl из за этого fps будет почти в три раза меньше и пока не известно это баг или фича hud индикатора 
 
 $ MESA_LOADER_DRIVER_OVERRIDE=i965 mesa_glthread=false vblank_mode=1 glxgears -info
 
